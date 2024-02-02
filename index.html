@@ -16,11 +16,18 @@
             background-color: #222; /* Set default dark mode background color slightly darker */
             color: #FF8800; /* Set default dark mode text color to amber (#FF8800) */
             transition: background-color 0.5s, color 0.5s; /* Add smooth transition effect */
+            font-size: 16px; /* Default font size */
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Roboto', sans-serif;
         }
+
+        /* Different font size options */
+        .small-text { font-size: 14px; }
+        .medium-text { font-size: 16px; }
+        .large-text { font-size: 18px; }
+        .x-large-text { font-size: 20px; }
 
         /* Optional: You can add more styles for other elements in dark mode */
 
@@ -35,7 +42,10 @@
 
     <h1>Dark Mode Example</h1>
     <h2>This is a Heading 2</h2>
-    <p>This is a simple HTML file with a dark mode theme. No need to toggle; it's in dark mode by default.</p>
+    <p class="small-text">This is small text.</p>
+    <p class="medium-text">This is medium text.</p>
+    <p class="large-text">This is large text.</p>
+    <p class="x-large-text">This is extra-large text.</p>
 
 </body>
 </html>
