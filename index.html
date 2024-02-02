@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Mode Example</title>
 
-    <!-- Include Roboto font from Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Include Press Start 2P font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
 
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Press Start 2P', cursive;
             margin: 0;
             padding: 20px; /* Add padding for inset look */
             background-color: #222; /* Set default dark mode background color slightly darker */
-            color: #FF8800; /* Set default dark mode text color to amber */
+            color: #FF8800; /* Set default dark mode text color to amber (#FF8800) */
             transition: background-color 0.5s, color 0.5s; /* Add smooth transition effect */
         }
 
         /* Optional: You can add more styles for other elements in dark mode */
 
+        /* Light mode styles (not necessary in this example) */
+        body.light-mode {
+            background-color: #fff; /* Set light mode background color */
+            color: #333; /* Set light mode text color */
+        }
     </style>
 </head>
 <body>
