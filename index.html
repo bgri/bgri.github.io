@@ -5,37 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Mode Example</title>
 
+    <!-- Include Roboto font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #fff; /* Set default background color */
-            color: #333; /* Set default text color */
+            padding: 20px; /* Add padding for inset look */
+            background-color: #333; /* Set default dark mode background color */
+            color: #fff; /* Set default dark mode text color */
             transition: background-color 0.5s, color 0.5s; /* Add smooth transition effect */
         }
 
-        /* Dark mode styles */
-        body.dark-mode {
-            background-color: #333; /* Set dark mode background color */
-            color: #fff; /* Set dark mode text color */
+        /* Optional: You can add more styles for other elements in dark mode */
+
+        /* Light mode styles (not necessary in this example) */
+        body.light-mode {
+            background-color: #fff; /* Set light mode background color */
+            color: #333; /* Set light mode text color */
         }
     </style>
-
-    <script>
-        // JavaScript to toggle dark mode
-        function toggleDarkMode() {
-            const body = document.body;
-            body.classList.toggle('dark-mode');
-        }
-    </script>
 </head>
 <body>
 
-    <h1>Hello World - temp landing page for blog.bradgrier.com</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-
-    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <h1>Dark Mode Example</h1>
+    <p>This is a simple HTML file with a dark mode theme. No need to toggle; it's in dark mode by default.</p>
 
 </body>
 </html>
