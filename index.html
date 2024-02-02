@@ -1,7 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* Set default background color */
+            color: #333; /* Set default text color */
+            transition: background-color 0.5s, color 0.5s; /* Add smooth transition effect */
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            background-color: #333; /* Set dark mode background color */
+            color: #fff; /* Set dark mode text color */
+        }
+    </style>
+
+    <script>
+        // JavaScript to toggle dark mode
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+        }
+    </script>
+</head>
 <body>
-<h1>Hello World - temp landing page for blog.bradgrier.com</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <h1>Hello World - temp landing page for blog.bradgrier.com</h1>
+    <p>I'm hosted with GitHub Pages.</p>
+
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
 </body>
 </html>
