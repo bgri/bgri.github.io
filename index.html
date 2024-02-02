@@ -17,22 +17,34 @@
             color: #FF8800; /* Set default dark mode text color to amber (#FF8800) */
             transition: background-color 0.5s, color 0.5s; /* Add smooth transition effect */
             font-size: 18px; /* Default font size */
-            text-align: center; /* Center-align text */
         }
 
         h1 {
-            position: absolute;
-            top: 20px;
-            right: 20px;
+            font-family: 'Roboto', sans-serif;
+            text-align: right;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px; /* Adjust heading size */
         }
 
         hr {
-            margin-top: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
             border-color: #FF8800;
         }
 
         h2 {
+            font-family: 'Roboto', sans-serif;
             margin-top: 20px;
+            text-align: left;
+            font-size: 20px; /* Adjust heading size */
+        }
+
+        /* Style all links */
+        a {
+            color: #FF8800;
+            text-decoration: underline;
+            font-weight: bold;
         }
 
         /* Optional: You can add more styles for other elements in dark mode */
@@ -41,22 +53,6 @@
         body.light-mode {
             background-color: #fff; /* Set light mode background color */
             color: #333; /* Set light mode text color */
-        }
-
-        /* Mastodon link styles */
-        .mastodon-link {
-            margin-top: 20px;
-            color: #FF8800;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .mastodon-icon {
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
         }
     </style>
 </head>
@@ -68,10 +64,8 @@
     <h2>Placeholder Title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-    <!-- Mastodon link -->
-    <a href="https://universeodon.com/@bgrier" target="_blank" class="mastodon-link"> 
-        Follow me on Mastodon: @bgrier@universeodon.com
-    </a>
+    <!-- All links are styled -->
+    <a href="https://universeodon.com/@bgrier" target="_blank">Follow me on Mastodon: @bgrier@universeodon.com</a>
 
 </body>
 </html>
