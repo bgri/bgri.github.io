@@ -1,6 +1,6 @@
 ### Introduction
 
-These instructions are a work in progress for version 2.0a of the Drop-In VR1 replacement contrast control.
+![](https://github.com/bgri/Drop-In-VR1-Replacement-Contrast-Pot-m100-NEC-/blob/2cbef1b253c05dbbfa56e02c7e127393a2bfcfad/Drop-In%20Replacement%20Contrast%20Pot%20(m100-NEC)%20Documentation/Drop-In%20Replacement%20Contrast%20Pot%20(m100-NEC)-1/Drop-In%20Replacement%20Contrast%20Pot%20(m100-NEC)-1.001.jpeg)These instructions are a work in progress for version 2.0a of the Drop-In VR1 replacement contrast control.
 
 
 Each unit is hand assembled from available components as well as a custom 3d printed tray and Wheel Lid / dial designed to bring it all together. I developed this component to solve the problem of 40 year old hardware not having modern replacement components. My NEC PC-8201 had a twitchy or bad contrast control and I didn’t want to harvest a good one from another computer — so after a little design work, this is the result. Questions and feedback are welcome — email bradblog@gmail.com
